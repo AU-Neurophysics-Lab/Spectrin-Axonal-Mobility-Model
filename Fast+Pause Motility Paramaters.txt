@@ -1,0 +1,17 @@
+#---------------------#
+#  Initial Variables  #
+
+
+detachment_prob = 0.00016
+reatachment_prob = 0.0
+reversal_prob = 1.01
+motor_stop = 399
+N_motors = 500
+Latt_conv = 4           # This is the nanometers per lattice site
+Time_conv = 30          # This is the msec per time-step
+velocity = 5.25         # This number should be given in lattice sites per time-step
+STDEV_vel = 1.5       	# This number should be given in lattice sites per time-step
+Resolution = 25         # This is the resolution in number of lattice-sites/pixel
+P_ON = 310;             # This is a parameter for the number of time-steps a motor will pause
+Mod_P = 3;		# This parameter allows for consecutive runs between pausing
+#--------------------#
